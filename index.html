@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Eloquent Javascript</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+  <h1>Eloquent Javascript Loops</h1>
+  <p>Write a loop that makes seven calls to console.log to output the following triangle:<br>
+
+  #<br>
+  ##<br>
+  ###<br>
+  ####<br>
+  #####<br>
+  ######<br>
+  #######</p>
+
+  <p>for(i="#"; i.length <= 7; i+= "#"){<br>
+ 
+  console.log(i); <br>
+}</p>
+
+<p>
+  FizzBuzz
+Write a program that uses console.log to print all the numbers from 1 to 100, with two exceptions. For numbers divisible by 3, print "Fizz" instead of the number, and for numbers divisible by 5 (and not 3), print "Buzz" instead.
+
+When you have that working, modify your program to print "FizzBuzz" for numbers that are divisible by both 3 and 5 (and still print "Fizz" or "Buzz" for numbers divisible by only one of those).
+
+(This is actually an interview question that has been claimed to weed out a significant percentage of programmer candidates. So if you solved it, your labor market value just went up.)
+</p>
+
+<p>for(i=1; i<= 100; i++){<br>
+if(i % 3 === 0 && i % 5 === 0){<br>
+  console.log("FIZZBUZZ")<br>
+}else if(i % 3 === 0){<br>
+    console.log('FIZZ');<br>
+  }else if(i % 5 === 0){<br>
+    console.log('BUZZ');<br>
+  }else{<br>
+    console.log(i);<br>
+  }
+}</p>
+    
+
+
+</body>
+
+
+
+</html>
